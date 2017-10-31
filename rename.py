@@ -2,7 +2,7 @@
 # encoding=utf-8
 import os
 
-exclude_files = ["1-01.Cocos2d-x启航.md", "1-02.使用Cocos2d-x.md", "1-03.低级错误大全.md", "README.md"]
+exclude_files = ["README.md"]
 
 for root, dirs, files in os.walk("./"):
     for file in files:
