@@ -10,4 +10,4 @@ for item in os.listdir('./'):
     and item not in exclude_files \
     and "基础卷" not in item:
         trim = " [基础卷]"+item
-        print("git mv {0} {1}".format(item, trim))
+        os.system("git mv {0} {1}".format(item, trim))
